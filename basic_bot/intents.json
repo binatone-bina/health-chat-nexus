@@ -1,0 +1,658 @@
+{"intents": [
+  {
+    "tag": "cough",
+    "pattern": [
+      "coughing",
+      "dry cough",
+      "cough",
+      "wet cough",
+      "hacking",
+      "persistent cough"
+    ],
+    "response": [
+      "cough"
+    ]
+  },
+  {
+    "tag": "frequent sneezing",
+    "pattern": [
+      "sneezing fits",
+      "repeated sneezing",
+      "constant sneezing",
+      "uncontrollable sneezing",
+      "frequent sneezing",
+      "sneezing episodes"
+    ],
+    "response": [
+      "frequent sneezing"
+    ]
+  },
+  {
+    "tag": "hypersensitivity",
+    "pattern": [
+      "allergy",
+      "sensitivity",
+      "hyperreactivity",
+      "hypersensitivity",
+      "overreaction",
+      "intolerance"
+    ],
+    "response": [
+      "hypersensitivity"
+    ]
+  },
+  {
+    "tag": "urticaria",
+    "pattern": [
+      "hives",
+      "nettle rash",
+      "urticaria",
+      "welts",
+      "skin wheals",
+      "itchy bumps"
+    ],
+    "response": [
+      "urticaria"
+    ]
+  },
+  {
+    "tag": "anaphylaxis",
+    "pattern": [
+      "anaphylactic shock",
+      "severe allergic reaction",
+      "anaphylaxis",
+      "systemic hypersensitivity",
+      "acute allergic response",
+      "life-threatening allergy"
+    ],
+    "response": [
+      "anaphylaxis"
+    ]
+  },
+  {
+    "tag": "food allergy",
+    "pattern": [
+      "food hypersensitivity",
+       "food allergy",
+      "dietary allergy",
+      "food intolerance",
+      "adverse food reaction",
+      "allergic reaction to food"
+    ],
+    "response": [
+      "food allergy"
+    ]
+  },
+  {
+    "tag": "hives",
+    "pattern": [
+      "urticaria",
+      "welts",
+      "nettle rash",
+      "hives",
+      "skin wheals",
+      "itchy bumps"
+    ],
+    "response": [
+      "hives"
+    ]
+  },
+  {
+    "tag": "angioedema",
+    "pattern": [
+      "Quincke's edema",
+      "swelling",
+       "angioedema",
+      "deep tissue swelling",
+      "subcutaneous edema",
+      "rapid swelling"
+    ],
+    "response": [
+      "angioedema"
+    ]
+  },
+  {
+    "tag": "lip swelling",
+    "pattern": [
+      "swollen lips",
+      "labial edema",
+      "lip edema",
+      "lip swelling",
+      "puffy lips",
+      "enlarged lips"
+    ],
+    "response": [
+      "lip swelling"
+    ]
+  },
+  {
+    "tag": "swollen tongue",
+    "pattern": [
+      "tongue edema",
+      "macroglossia",
+      "enlarged tongue",
+      "swollen tongue",
+      "puffy tongue",
+      "tongue swelling"
+    ],
+    "response": [
+      "swollen tongue"
+    ]
+  },
+  {
+    "tag": "hay fever",
+    "pattern": [
+      "allergic rhinitis",
+      "seasonal allergies",
+      "hay fever",
+      "pollen allergy",
+      "nasal allergies",
+      "seasonal allergic rhinitis"
+    ],
+    "response": [
+      "hay fever"
+    ]
+  },
+  {
+    "tag": "supraventricular tachycardia",
+    "pattern": [
+      "SVT",
+      "paroxysmal supraventricular tachycardia",
+      "supraventricular tachycardia",
+      "atrial tachycardia",
+      "rapid heart rhythm",
+      "supraventricular arrhythmia"
+    ],
+    "response": [
+      "supraventricular tachycardia"
+    ]
+  },
+  {
+    "tag": "drop in blood pressure upon standing",
+    "pattern": [
+      "orthostatic hypotension",
+      "postural hypotension",
+      "drop in blood pressure upon standing",
+      "standing hypotension",
+      "upright hypotension",
+      "orthostasis"
+    ],
+    "response": [
+      "drop in blood pressure upon standing"
+    ]
+  },
+  {
+    "tag": "tachycardia",
+    "pattern": [
+      "rapid heart rate",
+      "fast heartbeat",
+      "tachycardia",
+      "elevated heart rate",
+      "increased pulse rate",
+      "accelerated heart rate"
+    ],
+    "response": [
+      "tachycardia"
+    ]
+  },
+  {
+    "tag": "elevated heart rate",
+    "pattern": [
+      "tachycardia",
+      "elevated heart rate",
+      "increased pulse rate",
+      "rapid heartbeat",
+      "fast heart rate",
+      "accelerated pulse"
+    ],
+    "response": [
+      "elevated heart rate"
+    ]
+  },
+  {
+    "tag": "high blood pressure",
+    "pattern": [
+      "hypertension",
+      "high blood pressure",
+      "elevated blood pressure",
+      "increased blood pressure",
+      "raised blood pressure",
+      "arterial hypertension"
+    ],
+    "response": [
+      "high blood pressure"
+    ]
+  },
+  {
+    "tag": "blue skin",
+    "pattern": [
+      "cyanosis",
+      "bluish discoloration",
+      "blue skin",
+      "bluish skin",
+      "blue-tinged skin",
+      "skin cyanosis"
+    ],
+    "response": [
+      "blue skin"
+    ]
+  },
+  {
+    "tag": "blue lips",
+    "pattern": [
+       "blue lips",
+      "cyanotic lips",
+      "bluish lips",
+      "blue-tinged lips",
+      "lip cyanosis",
+      "bluish discoloration of lips"
+    ],
+    "response": [
+      "blue lips"
+    ]
+  },
+  {
+    "tag": "hypotension",
+    "pattern": [
+      "low blood pressure",
+      "decreased blood pressure",
+       "hypotension",
+      "reduced blood pressure",
+      "diminished blood pressure",
+      "arterial hypotension"
+    ],
+    "response": [
+      "hypotension"
+    ]
+  },
+  {
+    "tag": "ectopic beats",
+    "pattern": [
+      "premature beats",
+      "extrasystoles",
+      "premature contractions",
+      "abnormal heartbeats",
+      "ectopic beats",
+      "early heartbeats"
+    ],
+    "response": [
+      "ectopic beats"
+    ]
+  },
+  {
+    "tag": "chest pain",
+    "pattern": [
+      "angina",
+      "thoracic pain",
+      "chest discomfort",
+      "pectoralgia",
+       "chest pain",
+      "sternal pain"
+    ],
+    "response": [
+      "chest pain"
+    ]
+  },
+  {
+    "tag": "cyanosis",
+    "pattern": [
+      "bluish skin",
+      "blue discoloration",
+      "cyanosis",
+      "blue-tinged skin",
+      "skin cyanosis",
+      "bluish appearance"
+    ],
+    "response": [
+      "cyanosis"
+    ]
+  },
+  {
+    "tag": "irregular heartbeat",
+    "pattern": [
+      "irregular heartbeat",
+      "arrhythmia",
+      "dysrhythmia",
+      "abnormal heart rhythm",
+      "irregular pulse",
+      "uneven heartbeat"
+    ],
+    "response": [
+      "irregular heartbeat"
+    ]
+  },
+  {
+    "tag": "postural tachycardia syndrome",
+    "pattern": [
+      "POTS",
+      "orthostatic intolerance",
+      "postural tachycardia syndrome",
+      "postural orthostatic tachycardia",
+      "upright tachycardia",
+      "standing tachycardia"
+    ],
+    "response": [
+      "postural tachycardia syndrome"
+    ]
+  },
+  {
+    "tag": "arrhythmia",
+    "pattern": [
+      "irregular heartbeat",
+      "dysrhythmia",
+      "arrhythmia",
+      "abnormal heart rhythm",
+      "irregular pulse",
+      "uneven heartbeat"
+    ],
+    "response": [
+      "arrhythmia"
+    ]
+  },
+  {
+    "tag": "weak pulse",
+    "pattern": [
+      "thready pulse",
+      "feeble pulse",
+      "weak pulse",
+      "faint pulse",
+      "diminished pulse",
+      "weak arterial pulse"
+    ],
+    "response": [
+      "weak pulse"
+    ]
+  },
+  {
+    "tag": "angina",
+    "pattern": [
+      "chest pain",
+      "pectoris",
+      "angina",
+      "angina pectoris",
+      "cardiac pain",
+      "heart-related chest pain"
+    ],
+    "response": [
+      "angina"
+    ]
+  },
+  {
+    "tag": "abnormally slow pulse",
+    "pattern": [
+      "bradycardia",
+      "slow heart rate",
+      "abnormally slow pulse",
+      "low pulse rate",
+      "reduced heart rate",
+      "decreased pulse rate"
+    ],
+    "response": [
+      "abnormally slow pulse"
+    ]
+  },
+  {
+    "tag": "bradycardia",
+    "pattern": [
+      "slow heart rate",
+      "bradycardia",
+      "low pulse rate",
+      "reduced heart rate",
+      "decreased pulse rate",
+      "abnormally slow heartbeat"
+    ],
+    "response": [
+      "bradycardia"
+    ]
+  },
+  {
+    "tag": "heart palpitations",
+    "pattern": [
+      "palpitations",
+      "fluttering heartbeat",
+      "heart palpitations",
+      "pounding heart",
+      "racing heart",
+      "irregular heartbeats"
+    ],
+    "response": [
+      "heart palpitations"
+    ]
+  },
+  {
+    "tag": "varicose veins",
+    "pattern": [
+      "varices",
+      "enlarged veins",
+      "varicose veins",
+      "swollen veins",
+      "dilated veins",
+      "twisted veins"
+    ],
+    "response": [
+      "varicose veins"
+    ]
+  },
+  {
+    "tag": "heart rhythm problems",
+    "pattern": [
+      "arrhythmias",
+      "heart rhythm problems",
+      "dysrhythmias",
+      "irregular heart rhythms",
+      "abnormal heart rhythms",
+      "heart rhythm disturbances"
+    ],
+    "response": [
+      "heart rhythm problems"
+    ]
+  },
+  {
+    "tag": "acrocyanosis",
+    "pattern": [
+      "persistent cyanosis",
+      "bluish extremities",
+      "blue hands and feet",
+      "acrocyanosis",
+      "peripheral cyanosis",
+      "limb cyanosis"
+    ],
+    "response": [
+      "acrocyanosis"
+    ]
+  },
+  {
+    "tag": "heart pain",
+    "pattern": [
+      "cardiac pain",
+      "angina",
+      "chest pain",
+      "heart pain",
+      "heartache",
+      "thoracic discomfort"
+    ],
+    "response": [
+      "heart pain"
+    ]
+  },
+  {
+    "tag": "ankle swelling",
+    "pattern": [
+      "ankle swelling",
+      "ankle edema",
+      "swollen ankles",
+      "puffy ankles",
+      "ankle fluid retention",
+      "ankle bloating"
+    ],
+    "response": [
+      "ankle swelling"
+    ]
+  },
+  {
+    "tag": "leg swelling",
+    "pattern": [
+      "leg edema",
+      "swollen legs",
+      "puffy legs",
+      "leg swelling",
+      "leg fluid retention",
+      "leg bloating"
+    ],
+    "response": [
+      "leg swelling"
+    ]
+  },
+  {
+    "tag": "chest discomfort",
+    "pattern": [
+      "thoracic discomfort",
+      "chest unease",
+      "chest pressure",
+      "chest discomfort",
+      "chest tightness",
+      "sternal discomfort"
+    ],
+    "response": [
+      "chest discomfort"
+    ]
+  },
+  {
+    "tag": "crackles on lung auscultation",
+    "pattern": [
+      "rales",
+      "crepitations",
+      "lung crackles",
+      "pulmonary crackles",
+      "crackles on lung auscultation",
+      "alveolar crackles"
+    ],
+    "response": [
+      "crackles on lung auscultation"
+    ]
+  },
+  {
+    "tag": "heart attack",
+    "pattern": [
+      "myocardial infarction",
+      "cardiac arrest",
+      "heart infarction",
+      "heart attack",
+      "coronary thrombosis",
+      "acute coronary syndrome"
+    ],
+    "response": [
+      "heart attack"
+    ]
+  },
+  {
+    "tag": "heart block",
+    "pattern": [
+      "atrioventricular block",
+       "heart block",
+      "AV block",
+      "conduction block",
+      "cardiac block",
+      "bundle branch block"
+    ],
+    "response": [
+      "heart block"
+    ]
+  },
+  {
+    "tag": "heart disease",
+    "pattern": [
+      "cardiopathy",
+      "cardiovascular disease",
+      "heart condition",
+      "heart disease",
+      "cardiac disease",
+      "coronary artery disease"
+    ],
+    "response": [
+      "heart disease"
+    ]
+  },
+  {
+    "tag": "heart failure",
+    "pattern": [
+      "congestive heart failure",
+      "heart failure",
+      "cardiac insufficiency",
+      "heart insufficiency",
+      "ventricular failure",
+      "cardiac failure"
+    ],
+    "response": [
+      "heart failure"
+    ]
+  },
+  {
+    "tag": "Kawasaki disease",
+    "pattern": [
+      "mucocutaneous lymph node syndrome",
+      "Kawasaki syndrome",
+      "Kawasaki disease",
+      "infantile polyarteritis",
+      "Kawasaki's disease",
+      "pediatric vasculitis"
+    ],
+    "response": [
+      "Kawasaki disease"
+    ]
+  },
+  {
+    "tag": "joint hypermobility syndrome",
+    "pattern": [
+      "benign joint hypermobility syndrome",
+      "joint hypermobility syndrome",
+      "BJHS",
+      "hypermobile joints",
+      "joint laxity",
+      "double-jointedness"
+    ],
+    "response": [
+      "joint hypermobility syndrome"
+    ]
+  },
+  {
+    "tag": "kidney cancer",
+    "pattern": [
+      "renal cancer",
+      "renal cell carcinoma",
+      "nephro",
+      "kidney cancer"
+    ],
+    "response": [
+      "kidney cancer"
+    ]
+  },
+  {"tag": "fever", "pattern": ["fever", "high temperature", "feverish", "pyrexia"], "response": ["fever"]},
+    {"tag": "cough", "pattern": ["cough", "coughing", "dry cough", "wet cough", "hacking"], "response": ["cough"]},
+    {"tag": "shortness of breath", "pattern": ["shortness of breath", "breathlessness", "dyspnea", "difficulty breathing"], "response": ["shortness of breath"]},
+    {"tag": "fatigue", "pattern": ["fatigue", "tiredness", "exhaustion", "weariness", "low energy"], "response": ["fatigue"]},
+    {"tag": "headache", "pattern": ["headache", "head pain", "migraine", "aching head"], "response": ["headache"]},
+    {"tag": "nausea", "pattern": ["nausea", "queasiness", "feeling sick", "upset stomach"], "response": ["nausea"]},
+    {"tag": "vomiting", "pattern": ["vomiting", "throwing up", "puking", "retching"], "response": ["vomiting"]},
+    {"tag": "diarrhea", "pattern": ["diarrhea", "loose stools", "watery stools", "runny stool"], "response": ["diarrhea"]},
+    {"tag": "constipation", "pattern": ["constipation", "difficulty passing stool", "hard stool", "irregular bowel movements"], "response": ["constipation"]},
+    {"tag": "abdominal pain", "pattern": ["abdominal pain", "stomach ache", "belly pain", "tummy ache"], "response": ["abdominal pain"]},
+    {"tag": "fever", "pattern": ["fever", "high temperature", "feverish", "pyrexia", "elevated temperature", "febrile"], "response": ["fever"]},
+    {"tag": "cough", "pattern": ["cough", "coughing", "dry cough", "wet cough", "hacking", "persistent cough", "irritated throat"], "response": ["cough"]},
+    {"tag": "shortness of breath", "pattern": ["shortness of breath", "breathlessness", "dyspnea", "difficulty breathing", "trouble breathing", "labored breathing"], "response": ["shortness of breath"]},
+    {"tag": "fatigue", "pattern": ["fatigue", "tiredness", "exhaustion", "weariness", "low energy", "lack of energy", "feeling drained"], "response": ["fatigue"]},
+    {"tag": "headache", "pattern": ["headache", "head pain", "migraine", "aching head", "pounding head", "head throbbing"], "response": ["headache"]},
+    {"tag": "nausea", "pattern": ["nausea", "queasiness", "feeling sick", "upset stomach", "stomach turning", "sick feeling"], "response": ["nausea"]},
+    {"tag": "vomiting", "pattern": ["vomiting", "throwing up", "puking", "retching", "barfing", "nauseous expulsion"], "response": ["vomiting"]},
+    {"tag": "diarrhea", "pattern": ["diarrhea", "loose stools", "watery stools", "runny stool", "frequent bowel movements", "intestinal distress"], "response": ["diarrhea"]},
+    {"tag": "constipation", "pattern": ["constipation", "difficulty passing stool", "hard stool", "irregular bowel movements", "stool retention", "slow digestion"], "response": ["constipation"]},
+    {"tag": "abdominal pain", "pattern": ["abdominal pain", "stomach ache", "belly pain", "tummy ache", "gut ache", "abdominal cramps"], "response": ["abdominal pain"]},
+    {"tag": "chest pain", "pattern": ["chest pain", "heart pain", "tightness in chest", "pressure in chest", "burning sensation in chest"], "response": ["chest pain"]},
+    {"tag": "dizziness", "pattern": ["dizziness", "lightheadedness", "faintness", "vertigo", "giddy", "unsteady feeling"], "response": ["dizziness"]},
+    {"tag": "blurred vision", "pattern": ["blurred vision", "hazy vision", "unclear sight", "fuzzy vision", "out of focus", "cloudy vision"], "response": ["blurred vision"]},
+    {"tag": "sore throat", "pattern": ["sore throat", "throat pain", "scratchy throat", "throat discomfort", "raw throat", "swollen throat"], "response": ["sore throat"]},
+    {"tag": "runny nose", "pattern": ["runny nose", "nasal discharge", "dripping nose", "clear mucus", "constant nose dripping", "postnasal drip"], "response": ["runny nose"]},
+    {"tag": "body pain", "pattern": ["body pain", "general pain", "whole body aches", "muscle soreness", "body discomfort", "widespread pain"], "response": ["body pain"]},
+    {"tag": "male","pattern": ["i am a male, male,mail,i am a mail,mail like,male like,maybe a mail,not female"],"response": ["male"]},
+    {"tag": "female","pattern": ["i am female","not a male","female like","maybe a female","female"],"response": ["female"]}
+]}
